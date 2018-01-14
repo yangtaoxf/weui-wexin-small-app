@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/cinemaList/cinema",
+    "pages/movieList/movie"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#22bccd",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "影合众卖票小程序",
+
+    "backgroundColor": "#f8f8f8",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/cinemaList/cinema",
+      "text": "影院",
+      "iconPath": "./images/icon_normal.png",
+      "selectedIconPath": "./images/icon_pressed.png"
+    }, {
+      "pagePath": "pages/movieList/movie",
+      "text": "影片",
+      "iconPath": "./images/icon_movie.png",
+      "selectedIconPath": "./images/icon_movie_light.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
